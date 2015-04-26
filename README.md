@@ -14,5 +14,5 @@ The independent data set that averages each measured variable by activity and su
 3.  CodeBook.pdf
 Description of variables, data and process for creating the independent data set
 
-to examine the data in the tidyData.csv, run this command at the R prompt:
->tidyData<-read.txt("tidyData.csv")
+to examine the data in the tidyData.txt, run this command at the R prompt:
+>tidyData<-read.table("tidyData.txt",header=TRUE)
